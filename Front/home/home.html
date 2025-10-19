@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial - Alunos</title>
+</head>
+    <script defer src="home.js"></script>
+    <script defer src="/util/Util.js"></script>
+<body>
+
+    <h1>Bem-vindo!</h1>
+    <div id="mensagem"></div>
+    <button onclick="logout()">Sair</button>
+
+    <h2>Lista de Alunos Cadastrados</h2>
+    <button onclick="carregarAlunos()">Recarregar Lista</button>
+    <ul id="lista-alunos-ul">
+        <li>Carregando...</li>
+    </ul>
+
+    
+
+</body>
+</html>
